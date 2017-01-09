@@ -1,0 +1,36 @@
+body {
+	background: linear-gradient(to right,#5F6C86 , #3E4D69);
+	color: white;
+	font-family: 'Avenir Next';
+
+}
+
+h1 {
+	font-weight: 300;
+	text-align: center;
+}
+
+th {
+	font-weight: 200;
+}
+
+form {
+	text-align: center;
+}
+
+table {
+	margin: 0 auto;
+}
+
+table td {
+	min-width: 90px;
+	height: 30px;
+    text-align:center;
+    vertical-align:middle;
+    background-color:#ccc;
+    border:1px solid #fff;
+}
+
+table td.highlighted {
+    background-color:#999;
+}
