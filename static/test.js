@@ -62,7 +62,6 @@ function bodyFromDateStamps(dateStamps) {
 		cell.innerHTML = dateStamps[i % 7][Math.floor(i/12)];
 		cell.setAttribute("data-date-value", )
 
-
 	}
 }
 
