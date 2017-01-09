@@ -26,7 +26,7 @@ function keyToDay(day) {
 	return dayKeys[day];
 }
 
-dateStamps = []
+var dateStamps = []
 
 for (var i = 0; i < 7; i++) {
 	if (i == thisDay.format("e")) { // The current day of the week
