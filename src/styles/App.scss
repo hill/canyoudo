@@ -21,6 +21,7 @@
       color: black;
       height: 40px;
       background-color: white;
+      border: 1px solid #eee;
     }
 
     // &.cell-enabled.day-time {
@@ -36,4 +37,12 @@
       background-color: #EACA96;
     }
   }
+}
+
+.circle {
+  display: inline-block;
+  border-radius: 10px;
+  width: 10px;
+  height: 10px;
+  margin: 0 2px;
 }
